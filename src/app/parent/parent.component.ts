@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'app-parent',
-    templateUrl: './parent.component.html'
+  selector: 'app-parent',
+  templateUrl: './parent.component.html'
 })
 
-export class Parent {}
+export class ParentComponent {}
