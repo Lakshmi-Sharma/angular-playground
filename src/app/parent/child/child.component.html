@@ -1,1 +1,4 @@
 <p> child works! </p>
+<input [(ngModel)]="username">
+<div>{{ username }}</div>
+<button [disabled]="username == ''" (click)="clearInput()">BTN</button>

@@ -4,11 +4,10 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-child',
   templateUrl: './child.component.html'
 })
-export class ChildComponent implements OnInit {
+export class ChildComponent {
+  username :string = '';
 
-  constructor() { }
-
-  ngOnInit() {
+  clearInput = function() {
+    this.username = ''
   }
-
 }
